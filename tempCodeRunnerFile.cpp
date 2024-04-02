@@ -1,16 +1,18 @@
 #include<iostream>
 using namespace std;
 int main(){
-    float radius;
-    const float pi=3.141592;
-    float area;
 
-    cout<<"enter the radius  of the circle: ";
-    cin>>radius;
+    int a,b,div;
+   
+    cout<<"enter the number a:";
+    cin>>a;
 
-    area = pi * radius * radius;
+    cout<<"enter the number b: ";
+    cin>>b;
 
-    cout<<" the area of the circle is:" << area << endl;
+    div=a/b;
+    cout<<div;
+    
 
-    return 0;
+    
 }
