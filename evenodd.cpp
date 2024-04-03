@@ -9,9 +9,9 @@ int main() {
   cin >> n;
 
   if ( n % 2 == 0)
-    cout << n << " is even.";
+    cout << "this is even"<<endl;
   else
-    cout << n << " is odd.";
+    cout << "this number is odd"<<endl;
 
   return 0;
 }

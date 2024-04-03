@@ -2,17 +2,13 @@
 using namespace std;
 int main(){
 
-    int a,b,div;
-   
-    cout<<"enter the number a:";
-    cin>>a;
+int n;
+cout<<"enter the number";
+cin>>n;
+    if(n%2==0){
+        cout<<"this number is even"<<endl;
 
-    cout<<"enter the number b: ";
-    cin>>b;
-
-    div=a/b;
-    cout<<div;
-    
-
-    
+    }else{
+        cout<<"this number is odd"<<endl;
+    }
 }
