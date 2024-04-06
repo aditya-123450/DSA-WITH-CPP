@@ -6,14 +6,11 @@ class example{
     //variable decleration
     int a,b;
     public:
-
     //constructor
     example()  {
-
     //assign values in constructor
     a=15;
     b=20;
-
     cout<<"Im constructor\n";
     }
 
@@ -23,12 +20,9 @@ void Display(){
 };
 int main(){
     example object;
-
     //constructor invoked
     object.Display();
-
     return 0;
-
 }
 
 
