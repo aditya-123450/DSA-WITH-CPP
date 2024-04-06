@@ -20,8 +20,6 @@ int main()
         cout<<"Execute While "<<counter<<" time"<<endl;
         counter++;
     }
-
-    //wait for output screeen
     
     return 0;
 }
