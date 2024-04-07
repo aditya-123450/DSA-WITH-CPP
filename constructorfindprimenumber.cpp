@@ -1,3 +1,5 @@
+//constructor program for find prime number
+
 #include<iostream>
 using namespace std;
 
