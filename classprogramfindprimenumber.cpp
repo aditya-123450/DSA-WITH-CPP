@@ -36,7 +36,7 @@ class prime
     if(k==1)
     cout<<"\n"<<a<<" is Prime Number.";
     else
-    cout<<"\n"<<a<<"is Not Prime Number.";
+    cout<<"\n"<<a<<" is Not Prime Number.";
    }
     };
 
