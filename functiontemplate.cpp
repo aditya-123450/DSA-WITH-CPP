@@ -10,22 +10,22 @@ void swap(t&x,t&y)
 }
 void fun(int a, int b, float c,float d)
 {
-    cout<<"\n a and b before swapping: "<<a<<"\t"<<b;
+   std::cout<<"\n a and b before swapping: "<<a<<"\t"<<b;
     swap(a,b);
-    cout<<"\n a and b after swapping: "<<a<<"\t"<<b;
-    cout<<"\n\n c and d before swapping: "<<c<<"\t"<<d;
+    std::cout<<"\n a and b after swapping: "<<a<<"\t"<<b;
+    std::cout<<"\n\n c and d before swapping: "<<c<<"\t"<<d;
     swap(c,d);
-    cout<<"\n c and d after swapping: "<<"\t"<<d;
+    std::cout<<"\n c and d after swapping: "<<"\t"<<d;
 }
-void main()
+int main()
 {
     int a,b;
     float c,d;
     
-    cout<<"Enter A,B values(integer):";
-    cin>>a>>b;
-    cout<<"Enter C,D values(integer):";
-    cin>>c>>d;
+    std::cout<<"Enter A,B values(integer):";
+    std::cin>>a>>b;
+    std::cout<<"Enter C,D values(integer):";
+    std::cin>>c>>d;
     fun(a,b,c,d);
     
     
