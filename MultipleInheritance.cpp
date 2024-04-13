@@ -6,12 +6,12 @@ class student
     protected:
     int rno,m1,m2;
      public:
-      void get();
+      void get()
       {
-        cout<<"Enter the Roll no: ";
-        cin>>rno;
-        cout<<"Enter the two marks :";
-        cin>>m1>m2;
+        std::cout<<"Enter the Roll no: ";
+        std::cin>>rno;
+        std::cout<<"Enter the two marks :";
+        std::cin>>m1>>m2;
 }
 };
 class sports
@@ -20,27 +20,27 @@ class sports
     int sm;    //sm=sports marks
     public:
 
-    void getsm();
+    void getsm()
     {
-        cout<<"\n Enter the sports marks: ";
-        cin>>sm;
+        std::cout<<"\n Enter the sports marks: ";
+        std::cin>>sm;
     }
 };
 class statement:public student,public sports
 {
     int tot,avg;
     public:
-    void display();
+    void display()
     {
         tot=(m1+m2+sm);
         avg=tot/3;
-        cout<<"\n\n\t Roll No :"<<rno<<"\n\tTotal :"<<tot;
-        cout<<"\n\t Average :"<<avg;
+        std::cout<<"\n\n\t Roll No :"<<rno<<"\n\tTotal :"<<tot;
+        std::cout<<"\n\t Average :"<<avg;
     }
 };
-void main()
+int main()
 {
-    clrscr()
+    
     statement obj;
     obj.get();
     obj.getsm();
