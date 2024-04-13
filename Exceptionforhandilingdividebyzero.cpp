@@ -1,3 +1,4 @@
+//program for exception handling divide by zero 
 #include<iostream>
 
 int main()

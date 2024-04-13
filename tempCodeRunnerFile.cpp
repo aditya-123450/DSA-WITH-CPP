@@ -1,14 +1,1 @@
-#include<iostream>
-using namespace std;
-int main(){
-
-int n;
-cout<<"enter the number";
-cin>>n;
-    if(n%2==0){
-        cout<<"this number is even"<<endl;
-
-    }else{
-        cout<<"this number is odd"<<endl;
-    }
-}
+//program for exception handling divide by zero 
