@@ -1,3 +1,4 @@
+//simple program for exception handiling with multiple catch using c++
 #include<iostream>
 
 void test(int x)
