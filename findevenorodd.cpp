@@ -8,5 +8,5 @@ cin>>x;
 if(x%2==0)
 cout << "The number " << x << " is even.";
 else
-cout << "The number " << x << " is odd.";
+cout << ".The number " << x << " is odd.";
 }
